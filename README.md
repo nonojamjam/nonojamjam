@@ -32,8 +32,8 @@ Details, limitations and the interactive pieces are on the [portfolio](https://n
 
 ### Papers
 
-1. **J. Park**, H. Seo. *An LLM Wiki System for High-Consequence Domain Knowledge Organization: Initial Feasibility for Space Operations and Nuclear Engineering.* 3rd IAA Conference on AI for Space, Jeju, Aug 2026 — first author, oral. [PDF](https://nonojamjam.github.io/assets/papers/IAA2026_Park_LLM_Wiki_System.pdf)
-2. **J. Park**, H. Seo. *A VLM Robot Manipulation Pipeline for Mitigating Physical Hallucination* (in Korean). Korea Society of Industrial Information Systems, Spring 2026 — first author, oral.
+1. **J. Park**, H. Seo. *An LLM Wiki System for High-Consequence Domain Knowledge Organization: Initial Feasibility for Space Operations and Nuclear Engineering.* 3rd IAA Conference on AI for Space, Jeju, Aug 2026 — first author, oral. [paper](https://nonojamjam.github.io/assets/papers/IAA2026_Park_LLM_Wiki_System.pdf) · [slides](https://nonojamjam.github.io/assets/talks/IAA2026_Park_talk_slides.pdf)
+2. **J. Park**, H. Seo. *A VLM Robot Manipulation Pipeline for Mitigating Physical Hallucination* (in Korean). Korea Society of Industrial Information Systems, Spring 2026 — first author, oral. [slides (Korean)](https://nonojamjam.github.io/assets/talks/KSIIS2026_Park_talk_slides_ko.pdf)
 3. KCI journal paper, co-author — LLM-driven evolutionary search over algorithm space (2026). · Patent pending, co-inventor — direction control in LLM embedding space (2026).
 
 ### Code
