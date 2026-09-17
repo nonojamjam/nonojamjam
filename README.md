@@ -2,31 +2,32 @@
 
 **Electronic Engineering, Chungbuk National University · B.S. Feb 2027 · applying for Spring 2027 graduate programs in Physical AI**
 
-> LLMs can *talk about* the world but have never *touched* it.
-> I tried three ways to make language models act in the physical world, hit the same wall each time,
-> and now want to close that gap with signals that language does not carry.
+> Language models encode descriptions of the physical world but no experience of it.
+> Three undergraduate studies — a knowledge system, a manipulation pipeline, and a noise-robust detector —
+> each reached the same limitation from a different side. The proposed direction is to close that gap
+> with physical and multimodal signals rather than with more language.
 
 🌐 **[Portfolio — numbers, demos, papers →](https://nonojamjam.github.io/)** · 📄 **[CV (PDF)](https://nonojamjam.github.io/assets/cv/CV_JuhyeokPark_2026-09.pdf)** · ✉️ 2021076023@chungbuk.ac.kr
 
 ---
 
-### Three experiments, one wall
+### Three studies, one limitation
 
-| | What I measured | What it showed |
+| | Measurement | Finding |
 |---|---|---|
-| **01 · Noise-robust satellite detection** (capstone, sole ML/code) | Noisy mAP50 **+0.163** (σ=0.3, seed-stable); clean **−0.053** | 97% of the gain is *training on the corrupted signal*; distillation adds +0.005 |
-| **02 · An LLM that writes and reads its own wiki** (KAERI · IAA 2026, first author) | **94%** blind agreement between two cross-family graders | Even with the correct node injected, hallucination remained — knowledge access is not the bottleneck |
-| **03 · VLM robot commands gated by forward kinematics** (KAERI · KSIIS 2026, first author) | Position error **165.7 → 276.9 mm** when the VLM was *given* joint angles | Language does not carry the physical quantities the task needs; the check has to sit outside the model |
+| **01 · Noise-robust satellite detection** (capstone, sole ML/code) | Noisy mAP50 **+0.163** (σ=0.3, seed-stable); clean **−0.053** | 97% of the gain is attributable to training on the corrupted signal; distillation adds +0.005 |
+| **02 · An LLM that writes and reads its own wiki** (KAERI · IAA 2026, first author) | **94%** blind agreement between two cross-family graders | Hallucination persisted with the correct node injected directly; knowledge access is not the limiting factor |
+| **03 · VLM robot commands gated by forward kinematics** (KAERI · KSIIS 2026, first author) | Position error **165.7 → 276.9 mm** when the VLM was *given* joint angles | Language does not carry the physical quantities the task requires; verification must be external to the model |
 
-Details, limitations and the interactive pieces are on the [portfolio](https://nonojamjam.github.io/#capstone).
+Method, limitations and interactive material: [portfolio](https://nonojamjam.github.io/#capstone).
 
 ---
 
-### Try it
+### Interactive material
 
 [![Same noisy satellite tile: baseline finds nothing, the noise-trained model keeps the lock](https://nonojamjam.github.io/assets/profile/noise_slider.gif)](https://nonojamjam.github.io/noise-robust-detection-rkd/)
 
-**[▶ Drag the slider yourself](https://nonojamjam.github.io/noise-robust-detection-rkd/)** · **[▶ Click a target and let forward kinematics accept or reject it](https://nonojamjam.github.io/#fk)**
+**[▶ Noise slider — baseline vs. proposed detector](https://nonojamjam.github.io/noise-robust-detection-rkd/)** · **[▶ Forward-kinematics gate — propose a target, observe accept/reject](https://nonojamjam.github.io/#fk)**
 
 ---
 
@@ -38,7 +39,7 @@ Details, limitations and the interactive pieces are on the [portfolio](https://n
 
 ### Code
 
-- [`noise-robust-detection-rkd`](https://github.com/nonojamjam/noise-robust-detection-rkd) — the capstone: RKD loss, custom Ultralytics trainer, re-measured results with seed checks. What did not work is in the README too.
-- [`nonojamjam.github.io`](https://github.com/nonojamjam/nonojamjam.github.io) — this portfolio, including the FK gate toy.
+- [`noise-robust-detection-rkd`](https://github.com/nonojamjam/noise-robust-detection-rkd) — capstone: RKD loss, custom Ultralytics trainer, re-measured results with seed checks. Negative results are documented in the README.
+- [`nonojamjam.github.io`](https://github.com/nonojamjam/nonojamjam.github.io) — this portfolio, including the forward-kinematics illustration.
 
-<sub>Earlier: eLoran time-of-arrival under random sample loss (NAVIS Lab, 1,000-run Monte-Carlo; plain accumulation won). Details in person.</sub>
+<sub>Earlier: eLoran time-of-arrival under random sample loss (NAVIS Lab, 1,000-run Monte-Carlo; plain accumulation outperformed both compensation schemes). Details available on request.</sub>
