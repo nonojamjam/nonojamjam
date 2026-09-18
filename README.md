@@ -2,10 +2,11 @@
 
 **Electronic Engineering, Chungbuk National University · B.S. Feb 2027 · applying for Spring 2027 graduate programs in Physical AI**
 
-> Language models encode descriptions of the physical world but no experience of it.
-> Three undergraduate studies — a knowledge system, a manipulation pipeline, and a noise-robust detector —
-> each reached the same limitation from a different side. The proposed direction is to close that gap
-> with physical and multimodal signals rather than with more language.
+> Language models work from descriptions of physical tasks. Three undergraduate projects: an LLM wiki with ambient context
+> injection, a VLM manipulation pipeline with forward-kinematics verification, a noise-robust detector with heterogeneous
+> relational distillation. The LLM given the right document — hallucination. The VLM given the right joint angles — 277 mm
+> position error. The detector trained on noisy images — robustness. Research goal: a model whose input includes physical
+> and multimodal measurements.
 
 🌐 **[Portfolio — numbers, demos, papers →](https://nonojamjam.github.io/)** · 📄 **[CV (PDF)](https://nonojamjam.github.io/assets/cv/CV_JuhyeokPark_2026-09.pdf)** · ✉️ 2021076023@chungbuk.ac.kr
 
