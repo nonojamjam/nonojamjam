@@ -26,7 +26,7 @@ Method, limitations and interactive material: [portfolio](https://nonojamjam.git
 
 | | Role | Content |
 |---|---|---|
-| **LLM-driven self-evolution of a SAFT ultrasound imaging algorithm** — KCI journal, 2026 | co-author | An AlphaEvolve-style loop in which the LLM proposes code edits, an evaluator scores them, and the program population evolves. Contribution: benchmark task design and code documentation for generalising the loop beyond the original imaging task. |
+| **AI agent framework for autonomous improvement of an ultrasonic (SAFT) imaging algorithm** — *J. Korean Soc. Nondestruct. Test.* 46(4), 2026 (KCI) | co-author | An LLM agent iteratively edits the SAFT code; an evaluator scores each edit and keeps improvements. Validated on six defect conditions; agent design variables (metric design, edits per iteration, edit history) analysed. Contribution: benchmark task design and code documentation. |
 | **Idea Compass** — patent pending, 2026 | co-inventor | Coarse directional steering of LLM idea generation in embedding space, with a human-in-the-loop gauge. Presented as the steering component of the IAA wiki system; the internal mechanism is not disclosed pending the filing. |
 
 Both concern *what an LLM can produce* when placed inside a search or steering loop — the complementary question to the three studies above, which concern *what it cannot execute*.
@@ -45,7 +45,7 @@ Both concern *what an LLM can produce* when placed inside a search or steering l
 
 1. **J. Park**, H. Seo. *An LLM Wiki System for High-Consequence Domain Knowledge Organization: Initial Feasibility for Space Operations and Nuclear Engineering.* 3rd IAA Conference on AI for Space, Jeju, Aug 2026 — first author, oral. [paper](https://nonojamjam.github.io/assets/papers/IAA2026_Park_LLM_Wiki_System.pdf) · [slides](https://nonojamjam.github.io/assets/talks/IAA2026_Park_talk_slides.pdf)
 2. **J. Park**, H. Seo. *A VLM Robot Manipulation Pipeline for Mitigating Physical Hallucination* (in Korean). Korea Society of Industrial Information Systems, Spring 2026 — first author, oral. [slides (Korean)](https://nonojamjam.github.io/assets/talks/KSIIS2026_Park_talk_slides_ko.pdf)
-3. KCI journal paper, co-author — LLM-driven self-evolution of a SAFT ultrasound imaging algorithm (2026). · Patent pending, co-inventor — Idea Compass, directional steering in LLM embedding space (2026).
+3. D. Choi, **J. Park**, H. Seo, “Development of an AI Agent Framework for Autonomous Improvement of an Ultrasonic Imaging Algorithm,” *J. Korean Soc. Nondestruct. Test.* 46(4):268–277, 2026 (KCI, co-author). · Patent pending, co-inventor — Idea Compass, directional steering in LLM embedding space (2026).
 
 ### Code
 
