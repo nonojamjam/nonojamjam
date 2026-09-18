@@ -8,7 +8,7 @@
 > position error. The detector trained on noisy images — robustness. Research goal: a model whose input includes physical
 > and multimodal measurements.
 
-🌐 **[Portfolio — numbers, demos, papers →](https://nonojamjam.github.io/)** · 📄 **[CV (PDF)](https://nonojamjam.github.io/assets/cv/CV_JuhyeokPark_2026-09.pdf)** · ✉️ 2021076023@chungbuk.ac.kr
+🌐 **[Portfolio — numbers, demos, papers →](https://nonojamjam.github.io/)** · 📄 **[CV (PDF)](https://nonojamjam.github.io/assets/cv/CV_JuhyeokPark_2026-09.pdf)**
 
 ---
 
